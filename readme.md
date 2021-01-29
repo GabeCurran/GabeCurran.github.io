@@ -1,20 +1,21 @@
 ## Gabe's Personal Page
-Welcome to my personal page. 
-I am a student in information science...<add more>
+Welcome to my personal webpage. 
+I am a student studying software engineering at Thaddeus Stevens College of Technology.
+I plan on becoming as experienced and well-rounded in front-end web development, game-design and the fields alike as I possibly can!
 
-## Interests
-My interests include:
+## Interests/Experience
+I have mostly worked with:
 - Markdown
 - HTML
 - CSS
-- REACT Javascript
-- Typescript
-- Flutter
+- JavaScript
+- JavaScript DOM
 
 ## Projects
-My main projects are as follows:
-- game
-- website
+My main projects so far have been:
+- web based games
+- personal websites
 
-## Collaboration
-I want to learn about front end design and software development. I am looking for new projects and the chance to collaborate with people that share the same interests.
+## Collaboration/Goals
+I have a passion for learning and am doing my best to broaden my reach. Currently, I would like to work on JavaScript games and potentially create modular JavaScript features.
+I am also in the midst of learning about database, through Python3 and SQL. I am very interested in learning more about backend web development as well.
