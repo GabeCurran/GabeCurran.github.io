@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    box-sizing: border-box; padding: 0; margin: 0;
+    font-family: 'exo';
+    font-size: 1.3rem;
+    background-color: #2b2b2b;
+    color: #EDEDED;
+}
+
+@font-face {
+    font-family:'exo';
+    src: url(typeface/exo/exo-variable.ttf);
+}
+
+@font-face {
+    font-family: 'exo-italic';
+    src: url(typeface/exo/exo-variable-italic.ttf);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #EDEDED;
+}
+
+h2 {
+    color: #EDEDED;
+}
+
+h3 {
+    color: #EDEDED;
+}
+
+p {
+    color: #d10d27;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    color: #EDEDED;
+}
+
+a:hover {
+    color: #b80d2a;
+}
+
+.redBorder {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #d10d27;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.skillHeading {
+    font-size: 1.5rem;
+    color: #d10d27;
+}
+
+#myName {
+    font-size: 2.5rem;
+}
+
+#infoHeadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+#infoHeadings > *{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#infoP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+#infoP > p {
+    padding: 0 0 1rem 0;
+}
+
+#skills {
+    width: 100%;
+}
+
+#skills > h2 {
+    padding-top: 3rem;
+    font-size: 1.8rem;
+}
+
+#frontEndList > li{
+    font-weight: 600;
+}

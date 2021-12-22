@@ -8,7 +8,7 @@ Front-End:
 - HTML
 - CSS
     - Tailwind
-- JavaScript & DOM
+- JavaScript
 
 Back-End:
 - PHP
