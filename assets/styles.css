@@ -61,7 +61,7 @@ h3 {
 }
 
 p {
-    color: #d10d27;
+    color: #f76a6a;
 }
 
 a {
@@ -71,12 +71,16 @@ a {
 }
 
 a:hover {
-    color: #b80d2a;
+    color: #a33131;
+}
+
+li {
+    list-style-type: none;
 }
 
 .redBorder {
     padding-bottom: 1rem;
-    border-bottom: 2px solid #d10d27;
+    border-bottom: 2px solid #f76a6a;
 }
 
 .textCenter {
@@ -85,7 +89,20 @@ a:hover {
 
 .skillHeading {
     font-size: 1.5rem;
-    color: #d10d27;
+    color: #f76a6a;
+}
+
+.highlighted {
+    color: #EDEDED;
+    font-weight: 600;
+}
+
+.nested {
+    padding-left: 1.5rem;
+}
+
+.listContainer {
+    width: 20rem;
 }
 
 #myName {
@@ -117,14 +134,18 @@ a:hover {
 }
 
 #skills {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
     width: 100%;
-}
-
-#skills > h2 {
-    padding-top: 3rem;
-    font-size: 1.8rem;
+    padding: 2rem 0 2rem 0;
 }
 
 #frontEndList > li{
+    font-weight: 600;
+}
+
+#backEndList {
     font-weight: 600;
 }
