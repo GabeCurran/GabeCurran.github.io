@@ -64,18 +64,18 @@ p {
     color: #f76a6a;
 }
 
-a {
+li {
+    list-style-type: none;
+}
+
+.nav {
     text-decoration: none;
     padding: 0 2rem 0 2rem;
     color: #EDEDED;
 }
 
-a:hover {
+.nav:hover {
     color: #a33131;
-}
-
-li {
-    list-style-type: none;
 }
 
 .redBorder {
@@ -107,7 +107,8 @@ li {
 
 .iconResizer {
     width: 64px;
-    height:64px
+    height: 64px;
+    margin: 0 16px 0 16px
 }
 
 .icon {
@@ -158,4 +159,9 @@ li {
 
 #backEndList {
     font-weight: 600;
+}
+
+#iconContainer {
+    display: flex;
+    justify-content: center;
 }
