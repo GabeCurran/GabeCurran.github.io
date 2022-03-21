@@ -9,16 +9,20 @@ Front-End:
 - CSS
     - Tailwind
 - JavaScript
+    - DOM
+    - JQuery
 
 Back-End:
+- Java
 - PHP
     - Laravel (Breeze, Sail)
 - Python
     - Flask
 - SQL
-    - Docker
     - MySQL
     - PostgreSQL
+- Docker
+- Server Hosting
 
 ## Projects
 My main projects so far have been:
