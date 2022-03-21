@@ -201,3 +201,34 @@ li {
 #yoreLink:hover {
     color: #a33131;
 }
+
+@media screen and (max-width: 600px) {
+    .nav {
+        padding: 0 0.25rem 0 0.25rem;
+    }
+
+    section {
+        max-width: 100vw;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    #myName {
+        font-size: 1.75rem;
+    }
+
+    #infoHeadings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    
+    #infoHeadings > *{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
