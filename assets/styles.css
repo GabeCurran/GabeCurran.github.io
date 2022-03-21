@@ -122,8 +122,12 @@ li {
     transform: scale(1.15);
 }
 
+.aboutHeader {
+    font-size: 1.2em;
+}
+
 #myName {
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 #infoHeadings {
