@@ -66,6 +66,7 @@ p {
 
 li {
     list-style-type: none;
+    padding: 3px 0 3px 0;
 }
 
 .nav {
@@ -149,6 +150,10 @@ li {
     padding: 0 0 1rem 0;
 }
 
+#summary > p {
+    padding: 3vh 0 3vh 0;
+}
+
 #skills {
     display: flex;
     flex-direction: row;
@@ -170,4 +175,5 @@ li {
     display: flex;
     justify-content: center;
     padding: 30px 0 0 0;
+    margin: 0 0 5vh 0;
 }
