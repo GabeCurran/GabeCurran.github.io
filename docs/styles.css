@@ -273,6 +273,10 @@ li {
         font-size: 1.5rem;
     }
 
+    #yore {
+        width: 100vw;
+    }
+
     #yoreLink {
         font-size: 1rem;
     }
