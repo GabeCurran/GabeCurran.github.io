@@ -271,6 +271,7 @@ li {
 
     #projectText > h1 {
         font-size: 1.5rem;
+        width: 90vw;
     }
 
     #yore {
