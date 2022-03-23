@@ -23,8 +23,8 @@ async function type(typedParagraphs, homeParagraphs) {
             await sleep(15);
         }
         counter++;
+        await sleep(250);
     }
-
     replaceParagraphs(typedParagraphs, homeParagraphs);
 }
 
