@@ -98,6 +98,7 @@ li {
 
 .highlighted {
     color: #EDEDED;
+    font-weight: 600;
 }
 
 .sneaky {
@@ -230,6 +231,10 @@ li {
 
     .nav {
         padding: 0 3vw 0 3vw;
+    }
+
+    .highlighted {
+        font-size: 1rem;
     }
 
     .listContainer {

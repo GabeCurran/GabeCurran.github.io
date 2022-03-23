@@ -10,7 +10,7 @@ Front-End:
     - Tailwind
 - JavaScript
     - DOM
-    - jQuery
+    - JQuery
 
 Back-End:
 - Java
