@@ -1,5 +1,5 @@
 
-const homeParagraphs = [
+const summaryParagraphs = [
     "I'm a student with a passion for computers, web design, and video games. I'm always looking for ways to learn more and better myself.",
     "My current goal is to graduate from Thaddeus Stevens and look for a job or internship in software or game development while I'm doing it. In the distant future, I hope to pursue a career in data science as well."
 ];
@@ -20,11 +20,7 @@ async function type(typedParagraphs, homeParagraphs) {
     for (paragraph of homeParagraphs) {
         for (letter of paragraph) {
             typedParagraphs[counter].innerHTML += letter;
-<<<<<<< HEAD
             await sleep(20);
-=======
-            await sleep(15);
->>>>>>> 1e2fd3128812cd36a69758781ed8d9f50612be51
         }
         counter++;
     }
