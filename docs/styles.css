@@ -232,6 +232,10 @@ li {
         padding: 0 3vw 0 3vw;
     }
 
+    .highlighted {
+        font-size: 1rem;
+    }
+
     .listContainer {
         padding: 3vh 0 3vh 0;
     }
