@@ -52,7 +52,7 @@ nav {
 h1 {
     color: #EDEDED;
     font-size: 1.3em;
-    padding: 0 0 3vh 0;
+    padding: 0 0 1.5vh 0;
 }
 
 h2 {
@@ -162,7 +162,7 @@ li {
 }
 
 #summary > p {
-    padding: 3vh 0 3vh 0;
+    padding: 1.5vh 0 1.5vh 0;
 }
 
 #skills {
@@ -172,6 +172,10 @@ li {
     justify-content: space-around;
     width: 100%;
     padding: 2rem 0 2rem 0;
+}
+
+#contact {
+    padding-top: 5vh;
 }
 
 #frontEndList > li{
