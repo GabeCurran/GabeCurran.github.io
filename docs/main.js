@@ -20,7 +20,11 @@ async function type(typedParagraphs, homeParagraphs) {
     for (paragraph of homeParagraphs) {
         for (letter of paragraph) {
             typedParagraphs[counter].innerHTML += letter;
+<<<<<<< HEAD
             await sleep(20);
+=======
+            await sleep(15);
+>>>>>>> 1e2fd3128812cd36a69758781ed8d9f50612be51
         }
         counter++;
     }
