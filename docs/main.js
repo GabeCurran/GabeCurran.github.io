@@ -1,3 +1,11 @@
+let comic = document.querySelector("#comic");
+
+function goComic() {
+    document.body.style.fontFamily = "Comic Sans MS";
+}
+
+comic.addEventListener("click", goComic);
+
 let wordCounter = 0;
 let pCounter = 0;
 

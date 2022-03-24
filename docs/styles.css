@@ -134,6 +134,13 @@ li {
     font-size: 1.2em;
 }
 
+#comic {
+    color: #2b2b2b;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
 #myName {
     font-size: 2.5em;
 }
