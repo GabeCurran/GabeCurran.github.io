@@ -44,11 +44,12 @@ async function type(typedParagraphs, homeParagraphs) {
     for (paragraph of homeParagraphs) {
         for (letter of paragraph) {
             if (letter == ";") {
+                await sleep(10)
                 typedParagraphs[counter].innerHTML += span(typedParagraphs[counter]);
             } else {
                 typedParagraphs[counter].innerHTML += letter;
             }
-            await sleep(15);
+            await sleep(12);
         }
         counter++;
         await sleep(250);
