@@ -111,7 +111,7 @@ li {
 }
 
 .listContainer {
-    width: 20rem;
+    width: 80vw;
 }
 
 .iconResizer {
@@ -154,7 +154,8 @@ li {
 #infoP {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    width: 80vw;
     padding: 1rem 0 1rem 0;
 }
 
@@ -247,6 +248,7 @@ li {
     }
 
     .listContainer {
+        width: 80vw;
         padding: 3vh 0 3vh 0;
     }
 
