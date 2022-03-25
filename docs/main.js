@@ -1,6 +1,12 @@
 let wordCounter = 0;
 let pCounter = 0;
 
+let originalParagraphs = document.querySelectorAll(".originalParagraph");
+
+for (paragraph of originalParagraphs) {
+    paragraph.remove();
+}
+
 const highlightedWords = [
     "student",
     "computers",
