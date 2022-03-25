@@ -136,6 +136,20 @@ li {
 
 #myName {
     font-size: 2.5em;
+    transition: color 0.3s;
+}
+
+#myName:hover {
+    color: #f76a6a;
+}
+
+#tsct {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+#tsct:hover {
+    color: #a33131;
 }
 
 #infoHeadings {
@@ -254,6 +268,11 @@ li {
 
     #myName {
         font-size: 1.75rem;
+        transition: color 0.2s;
+    }
+
+    #myName:hover {
+        color: #f76a6a;
     }
 
     #infoHeadings {
