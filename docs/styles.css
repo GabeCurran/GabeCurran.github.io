@@ -152,6 +152,10 @@ li {
     color: #a33131;
 }
 
+#tsct:active {
+    color: #a33131;
+}
+
 #infoHeadings {
     display: flex;
     flex-direction: column;
