@@ -217,6 +217,8 @@ li {
     width: 75vw;
     height: 90vh;
     margin: 5vh 0 5vh 0;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
 }
 
 #yoreLink {
@@ -315,6 +317,8 @@ li {
 
     #yore {
         width: 100vw;
+        border: none;
+        border-radius: 0px;
     }
 
     #yoreLink {
