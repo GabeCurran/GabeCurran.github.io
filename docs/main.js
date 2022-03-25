@@ -65,6 +65,10 @@ async function type(typedParagraphs, homeParagraphs) {
                     typedParagraphs[counter].innerHTML += span(l);
                     await sleep(25);
                 }
+                if (highlightedWords[wordCounter] == 'Stevens') {
+                    let p = document.querySelector('#secondP');
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span>";
+                }
                 wordCounter++;
             } else {
                 typedParagraphs[counter].innerHTML += letter;
