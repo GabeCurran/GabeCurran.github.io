@@ -39,7 +39,7 @@ const homeParagraphs = [
 
 const builtParagraphs = [
     "I'm a <span class='highlighted'>student</span> with a passion for <span class='highlighted'>computers</span>, <span class='highlighted'>web design</span>, and <span class='highlighted'>video games</span>. I'm always looking for ways to <span class='highlighted'>learn more</span> and <span class='highlighted'>better myself</span>.",
-    "My current goal is to graduate from <span class='highlighted'><a href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span> and look for a job or internship in <span class='highlighted'>software or game development</span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science</span> as well."
+    "My current goal is to graduate from <span class='highlighted'><a href='https://stevenscollege.edu/' id='tsct' target='_blank'>Thaddeus Stevens</a></span> and look for a job or internship in <span class='highlighted'>software or game development</span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science</span> as well."
 ];
 
 let typedParagraphs = document.querySelectorAll('.typedParagraph');
@@ -67,7 +67,7 @@ async function type(typedParagraphs, homeParagraphs) {
                 }
                 if (highlightedWords[wordCounter] == 'Stevens') {
                     let p = document.querySelector('#secondP');
-                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span>";
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted' target='_blank'><a href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span>";
                 }
                 wordCounter++;
             } else {

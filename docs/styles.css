@@ -237,6 +237,10 @@ li {
         font-size: 0.8em;
     }
 
+    p > span > a {
+        font-size: 1em;
+    }
+
     section {
         max-width: 100vw;
     }
