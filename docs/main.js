@@ -67,7 +67,7 @@ async function type(typedParagraphs, homeParagraphs) {
                 }
                 if (highlightedWords[wordCounter] == 'Stevens') {
                     let p = document.querySelector('#secondP');
-                    p.innerHTML = "My current goal is to graduate from <span class='highlighted' target='_blank'><a href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span>";
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a target='_blank' href='https://stevenscollege.edu/' id='tsct'>Thaddeus Stevens</a></span>";
                 }
                 wordCounter++;
             } else {
