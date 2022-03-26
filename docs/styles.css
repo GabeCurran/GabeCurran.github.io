@@ -190,13 +190,17 @@ li {
     padding: 1.5vh 0 1.5vh 0;
 }
 
+#toolbelt {
+    margin-bottom: 5vh;
+}
+
 #skills {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
     width: 100%;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 0 0;
 }
 
 #frontEndList > li{
@@ -264,6 +268,10 @@ li {
         padding-top: 5vh;
     }
 
+    #toolbelt {
+        margin-bottom: 0;
+    }
+
     .nav {
         padding: 0 3vw 0 3vw;
     }
@@ -273,7 +281,7 @@ li {
     }
 
     .listContainer {
-        width: 80vw;
+        width: 100%;
         padding: 3vh 0 3vh 0;
     }
 
