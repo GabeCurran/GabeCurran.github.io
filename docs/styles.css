@@ -169,16 +169,16 @@ li {
     color: #f76a6a;
 }
 
-#tsct {
+.tsct {
     text-decoration: none;
     color: #EDEDED;
 }
 
-#tsct:hover {
+.tsct:hover {
     color: #a33131;
 }
 
-#tsct:active {
+.tsct:active {
     color: #a33131;
 }
 
