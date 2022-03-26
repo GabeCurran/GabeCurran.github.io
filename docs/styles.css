@@ -139,6 +139,26 @@ li {
     font-size: 1.2em;
 }
 
+.projectText > h1 {
+    text-align: center;
+}
+
+.projectText > p {
+    text-align: center;
+}
+
+.groupMates {
+    text-decoration: none;
+}
+
+.groupMates:hover {
+    color: #a33131;
+}
+
+.groupMates:active {
+    color: #a33131;
+}
+
 #myName {
     font-size: 2.5em;
     transition: color 0.3s;
@@ -234,14 +254,6 @@ li {
     color: #a33131;
 }
 
-#projectText > h1 {
-    text-align: center;
-}
-
-#projectText > p {
-    text-align: center;
-}
-
 @media screen and (max-width: 650px) {
 
     p {
@@ -290,6 +302,11 @@ li {
         width: 100vw;
     }
 
+    .projectText > h1 {
+        font-size: 1.5rem;
+        width: 90vw;
+    }
+
     #myName {
         font-size: 1.75rem;
         transition: color 0.2s;
@@ -322,11 +339,6 @@ li {
 
     #summary {
         width: 80vw;
-    }
-
-    #projectText > h1 {
-        font-size: 1.5rem;
-        width: 90vw;
     }
 
     #yore {
