@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="snake/snake.css">
     <link rel="icon" href="img/jarvis.png" type="image/icon type">
     <title>Gabe Curran | Projects</title>
 </head>
@@ -32,7 +33,12 @@
                 <p>but feel free to login and test it out <a id='yoreLink' target="_blank" href="https://care-of-yore.herokuapp.com/">here</a>!</p>
                 <p class="sneaky"><span  class="highlighted">patient@gmail.com / password</span></p>
                 <p class="sneaky">new accounts have to be approved first</p>
-            </div> 
+            </div>
+            <div id="gameContainer">
+                <h1 id="score"></h1>
+                <canvas id='snakeBoard' width="300" height="300"></canvas>
+                <button id="start">Start</button>
+            </div>
         </section>
     </main>
     <section class="contact">
@@ -56,4 +62,5 @@
         </div>
     </section>
 </body>
+<script src="snake/snake.js"></script>
 </html>

@@ -17,6 +17,17 @@
     font-display: swap;
 }
 
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}   
+
 main {
     display: flex;
     flex-direction: column;
