@@ -144,7 +144,6 @@ function genFood() {
         if (part.x == foodX && part.y == foodY) {
             genFood();
         }
-        eating(part);
     }
 }
 
