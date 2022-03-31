@@ -79,21 +79,25 @@ function changeDirection(key) {
     if (keyPress == LEFT && !goingRight) {
         dx = -10;
         dy = 0;
+        document.removeEventListener('keydown', changeDirection);
     }
 
     if (keyPress == RIGHT && !goingLeft) {
         dx = 10;
         dy = 0;
+        document.removeEventListener('keydown', changeDirection);
     }
 
     if (keyPress == UP && !goingDown) {
         dx = 0;
         dy = -10;
+        document.removeEventListener('keydown', changeDirection);
     }
 
     if (keyPress == DOWN && !goingUp) {
         dx = 0;
         dy = 10;
+        document.removeEventListener('keydown', changeDirection);
     }
 
 }
@@ -143,8 +147,6 @@ function genFood() {
         eating(part);
     }
 }
-
-document.addEventListener('keydown', changeDirection);
 
 function start() {
     startButton.removeEventListener('click', start);
@@ -198,6 +200,7 @@ function main() {
     setTimeout(function onTick() {
         clear();
         makeFood();
+        document.addEventListener('keydown', changeDirection);
         moveSnake();
         drawSnake();
         if (checkForHit()) {
