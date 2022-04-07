@@ -25,12 +25,15 @@ main {
 }
 
 section {
-    width: 60vw;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section:not(.contact) {
+    width: 60vw;
 }
 
 header {
@@ -116,7 +119,7 @@ li {
 
 .contact {
     margin-top: 5vh;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 .iconResizer {
@@ -300,7 +303,7 @@ li {
 
     .contact {
         margin-top: 10vh;
-        width: 100vw;
+        max-width: 100vw;
     }
 
     .projectText > h1 {
