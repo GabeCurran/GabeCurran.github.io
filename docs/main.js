@@ -3,10 +3,6 @@ let pCounter = 0;
 
 let originalParagraphs = document.querySelectorAll(".originalParagraph");
 
-for (paragraph of originalParagraphs) {
-    paragraph.remove();
-}
-
 const highlightedWords = [
     "student",
     "computers",
@@ -56,6 +52,11 @@ function replaceParagraphs() {
 };
 
 async function type(typedParagraphs, homeParagraphs) {
+    
+    for (paragraph of originalParagraphs) {
+        paragraph.remove();
+    }
+
     let counter = 0;
 
     for (paragraph of homeParagraphs) {
