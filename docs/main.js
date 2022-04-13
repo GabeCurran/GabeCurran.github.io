@@ -72,7 +72,7 @@ async function type(typedParagraphs, homeParagraphs) {
                 wordCounter++;
             } else {
                 typedParagraphs[counter].innerHTML += letter;
-                await sleep(25);
+                await sleep(35);
             }
         }
         counter++;
