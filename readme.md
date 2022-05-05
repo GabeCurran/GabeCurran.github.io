@@ -1,4 +1,4 @@
-## Gabe's Personal Page
+## Gabe Curran's Personal Website
 Welcome to my portfolio website!
 
 I am currently studying software engineering at Thaddeus Stevens College of Technology.
