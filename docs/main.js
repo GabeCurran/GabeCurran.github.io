@@ -14,8 +14,8 @@ const highlightedWords = [
     "more",
     "better",
     "myself",
-    "Thaddeus",
-    "Stevens",
+    "Drexel",
+    "University",
     "software",
     " / ",
     "game",
@@ -35,7 +35,7 @@ const homeParagraphs = [
 
 const builtParagraphs = [
     "I'm a <span class='highlighted'>student</span> with a passion for <span class='highlighted'>computers</span>, <span class='highlighted'>web design</span>, and <span class='highlighted'>video games</span>. I'm always looking for ways to <span class='highlighted'>learn more</span> and <span class='highlighted'>better myself</span>.",
-    "My current goal is to graduate from <span class='highlighted'><a href='https://stevenscollege.edu/' class='tsct' target='_blank'>Thaddeus Stevens</a></span> and look for a job or internship in <span class='highlighted'>software / game development</span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science</span> as well."
+    "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college' target='_blank'>Drexel University</a></span> and look for a job or internship in <span class='highlighted'>software / game development</span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science</span> as well."
 ];
 
 let typedParagraphs = document.querySelectorAll('.typedParagraph');
@@ -66,9 +66,9 @@ async function type(typedParagraphs, homeParagraphs) {
                     typedParagraphs[counter].innerHTML += span(l);
                     await sleep(25);
                 }
-                if (highlightedWords[wordCounter] == 'Stevens') {
+                if (highlightedWords[wordCounter] == 'University') {
                     let p = document.querySelector('#secondP');
-                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a target='_blank' href='https://stevenscollege.edu/' class='tsct'>Thaddeus Stevens</a></span>";
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college' target='_blank'>Drexel University</a></span>";
                 }
                 wordCounter++;
             } else {

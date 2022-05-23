@@ -172,16 +172,16 @@ li {
     color: #f76a6a;
 }
 
-.tsct {
+.college {
     text-decoration: none;
     color: #EDEDED;
 }
 
-.tsct:hover {
+.college:hover {
     color: #a33131;
 }
 
-.tsct:active {
+.college:active {
     color: #a33131;
 }
 
