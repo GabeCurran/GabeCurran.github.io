@@ -1,6 +1,7 @@
 ## Gabe's Personal Page
-Welcome to my personal webpage. 
-I am a student studying software engineering at Thaddeus Stevens College of Technology.
+Welcome to my personal webpage.
+I graduated from Thaddeus Stevens College of Technology in May of 2022, with a degree in software engineering.
+I am currently studying computer science at Drexel University.
 I plan on becoming as experienced and well-rounded in full-stack development, game-design, and the fields alike as I possibly can!
 
 ## Interests/Experience
