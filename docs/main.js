@@ -1,5 +1,19 @@
 let wordCounter = 0;
 let pCounter = 0;
+let letterDelay = 25;
+let paragraphDelay = 250;
+let scrollCounter = 0;
+
+// If user scrolls down 2 times, speed up printing
+window.onwheel = scrollEvent => {
+    if(scrollEvent.deltaY >= 0){
+      scrollCounter++;
+        if (scrollCounter >= 2) {
+            letterDelay = 4;
+            paragraphDelay = 25;
+        }
+    }
+  }
 
 let originalParagraphs = document.querySelectorAll(".originalParagraph");
 
@@ -52,32 +66,37 @@ function replaceParagraphs() {
 };
 
 async function type(typedParagraphs, homeParagraphs) {
-    
+    // In case JavaScript is disabled
     for (paragraph of originalParagraphs) {
         paragraph.remove();
     }
 
     let counter = 0;
-
+    // Print each paragraph
     for (paragraph of homeParagraphs) {
+        // Print each letter in selected paragraph
         for (letter of paragraph) {
+            // If letter is a semicolon, it indicates a highlighted word
             if (letter == ";") {
+                // Print highlighted word
                 for (l of highlightedWords[wordCounter]) {
                     typedParagraphs[counter].innerHTML += span(l);
-                    await sleep(25);
+                    await sleep(letterDelay);
                 }
+                // Add link to Drexel University
                 if (highlightedWords[wordCounter] == 'University') {
                     let p = document.querySelector('#secondP');
                     p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college' target='_blank'>Drexel University</a></span>";
                 }
                 wordCounter++;
             } else {
+                // Add current letter
                 typedParagraphs[counter].innerHTML += letter;
-                await sleep(35);
+                await sleep(letterDelay);
             }
         }
         counter++;
-        await sleep(250);
+        await sleep(paragraphDelay);
     }
     replaceParagraphs();
 };
