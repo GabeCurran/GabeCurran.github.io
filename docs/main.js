@@ -4,6 +4,7 @@ let letterDelay = 25;
 let paragraphDelay = 250;
 let scrollCounter = 0;
 
+// If user scrolls down, type faster
 window.addEventListener('scroll', (scrollEvent) => {
     if (window.scrollY > 200) {
         letterDelay = 3;
