@@ -3,17 +3,15 @@ let pCounter = 0;
 let letterDelay = 25;
 let paragraphDelay = 250;
 let scrollCounter = 0;
+let scrollPosition = window.scrollY;
 
-// If user scrolls down 2 times, speed up printing
-window.onwheel = scrollEvent => {
-    if(scrollEvent.deltaY >= 0){
-      scrollCounter++;
-        if (scrollCounter >= 2) {
-            letterDelay = 4;
-            paragraphDelay = 25;
-        }
+window.addEventListener('scroll', (scrollEvent) => {
+    console.log(window.scrollY)
+    if (window.scrollY > 200) {
+        letterDelay = 3;
+        paragraphDelay = 25;
     }
-  }
+});
 
 let originalParagraphs = document.querySelectorAll(".originalParagraph");
 
