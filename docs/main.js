@@ -3,10 +3,8 @@ let pCounter = 0;
 let letterDelay = 25;
 let paragraphDelay = 250;
 let scrollCounter = 0;
-let scrollPosition = window.scrollY;
 
 window.addEventListener('scroll', (scrollEvent) => {
-    console.log(window.scrollY)
     if (window.scrollY > 200) {
         letterDelay = 3;
         paragraphDelay = 25;
