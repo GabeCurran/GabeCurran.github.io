@@ -190,6 +190,19 @@ li {
     color: #a33131;
 }
 
+.ory {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+.ory:hover {
+    color: #5528ff;
+}
+
+.ory:active {
+    color: #5528ff;
+}
+
 #infoHeadings {
     display: flex;
     flex-direction: column;
