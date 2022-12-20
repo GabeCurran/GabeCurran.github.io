@@ -15,8 +15,8 @@ window.addEventListener('scroll', () => {
 function moveCover() {
     let cover = document.querySelector('#cover');
     cover.style.transform = 'translateY(+100%)';
-    cover.style.transition = 'transform 1.5s ease-in-out';
-    sleep(1500).then(() => {
+    cover.style.transition = 'transform 1.75s ease-in-out';
+    sleep(1750).then(() => {
         cover.remove();
     });
 }
