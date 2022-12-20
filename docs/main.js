@@ -12,6 +12,14 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// If user presses arrow down, type faster
+window.addEventListener('keydown', (event) => {
+    if (event.key == 'ArrowDown') {
+        letterDelay = 1;
+        paragraphDelay = 1;
+    }
+})
+
 function moveCover() {
     let cover = document.querySelector('#cover');
     cover.style.transform = 'translateX(+100%)';
