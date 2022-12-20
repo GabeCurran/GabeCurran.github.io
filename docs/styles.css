@@ -389,6 +389,10 @@ li {
         flex-direction: column;
     }
 
+    #tools > li > a {
+        font-size: 1rem;
+    }
+
     #summary {
         width: 80vw;
     }
