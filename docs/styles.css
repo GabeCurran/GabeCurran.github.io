@@ -271,9 +271,10 @@ li {
     background-color: #2b2b2b;
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: block;
     top: -2px;
+    left: -100px
 }
 
 #languages {
