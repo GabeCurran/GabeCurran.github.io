@@ -14,7 +14,7 @@ window.addEventListener('scroll', () => {
 
 function moveCover() {
     let cover = document.querySelector('#cover');
-    cover.style.transform = 'translateY(+100%)';
+    cover.style.transform = 'translateX(+100%)';
     cover.style.transition = 'transform 1.75s ease-in-out';
     sleep(1750).then(() => {
         cover.remove();
@@ -111,6 +111,7 @@ async function type(typedParagraphs, homeParagraphs) {
         await sleep(paragraphDelay);
     }
     replaceParagraphs();
+    sleep(1500);
     moveCover();
 };
 
