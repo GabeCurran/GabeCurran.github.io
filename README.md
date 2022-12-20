@@ -1,39 +1,28 @@
-## Gabe's Personal Page
-Welcome to my personal webpage.
-I graduated from Thaddeus Stevens College of Technology in May of 2022, with a degree in software engineering.
-I am currently studying computer science at Drexel University.
-I completed a two-month internship at Ory from June to August of 2022. 
-I plan on becoming as experienced and well-rounded in full-stack development, game-design, and the fields alike as I possibly can!
+## Welcome to my Portfolio!
+
+I recently graduated from [Thaddeus Stevens College of Technology](https://stevenscollege.edu/) with an associates degree in software engineering.
+I'm currently studying computer science at [Drexel University](https://drexel.edu/), as of Fall of 2022.
+I've also been working for [Ory](https://www.ory.sh/) while I study.
+
+[![Github Stats](https://github-readme-stats.vercel.app/api?username=GabeCurran&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=GabeCurran&hide=python&langs_count=8&layout=compact&theme=dark&card_width=445)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Interests/Experience
-Front-End:
-- HTML
-- CSS
-    - Tailwind
+- Web Design
 - JavaScript
-    - TypeScript
-    - NodeJS
-    - React
-    - jQuery
-- Dart
-    - Flutter
-
-Back-End:
-- Java
+- HTML5
+- CSS
 - PHP
-    - Laravel (Breeze, Sail)
+- Java
 - Python
-    - Flask
+- Lua
+- Dart
 - SQL
-    - MySQL
-    - PostgreSQL
-- MongoDB
-- Docker
-- Server Hosting
 
 ## Projects
 My main projects so far have been:
-- web based games
-- personal websites
-- web projects for school
-- commercial websites
+- [Portfolio Website](https://gabecurran.me/)
+- [Ory Demo](https://ory-demo.com/)
+- [Senior Care App](https://care-of-yore.herokuapp.com/)
+- [Fiora State Machine](https://www.cs.drexel.edu/~gc668/fiora)

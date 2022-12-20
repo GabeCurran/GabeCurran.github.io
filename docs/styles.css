@@ -178,26 +178,25 @@ li {
     color: #a33131;
 }
 
-#myName {
-    font-size: 2.5em;
-    transition: color 0.3s;
-}
-
-#myName:hover {
-    color: #f76a6a;
-}
-
 .college {
     text-decoration: none;
     color: #EDEDED;
 }
 
-.college:hover {
-    color: #a33131;
+.tsct:hover {
+    color: #8b1e23;
 }
 
-.college:active {
-    color: #a33131;
+.tsct:active {
+    color: #8b1e23;
+}
+
+.drexel:hover {
+    color: #ffc600;
+}
+
+.drexel:active {
+    color: #ffc600;
 }
 
 .ory {
@@ -211,6 +210,15 @@ li {
 
 .ory:active {
     color: #5528ff;
+}
+
+#myName {
+    font-size: 2.5em;
+    transition: color 0.3s;
+}
+
+#myName:hover {
+    color: #f76a6a;
 }
 
 #infoHeadings {
@@ -255,11 +263,23 @@ li {
     padding: 2rem 0 0 0;
 }
 
-#frontEndList > li{
+#coverParent {
+    position: relative;
+}
+
+#cover {
+    background-color: #2b2b2b;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#languages {
     font-weight: 600;
 }
 
-#backEndList {
+#tools {
     font-weight: 600;
 }
 

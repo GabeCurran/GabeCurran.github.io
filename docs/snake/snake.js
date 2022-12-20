@@ -44,6 +44,7 @@ function drawSnakePart(snakePart) {
     board_ctx.fillRect(snakePart.x, snakePart.y, 10, 10);
     board_ctx.strokeRect(snakePart.x, snakePart.y, 10, 10);
 }
+
 function clear() {
     board_ctx.fillStyle = boardBackground;
     board_ctx.strokestyle = boardBorder;
