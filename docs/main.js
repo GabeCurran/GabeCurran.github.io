@@ -45,7 +45,7 @@ const highlightedWords = [
     "myself",
     "Drexel",
     "University",
-    "Ory",
+    "Worlds",
     "data",
     "science",
     "/",
@@ -64,7 +64,7 @@ const homeParagraphs = [
 
 const builtParagraphs = [
     "I'm a <span class='highlighted'>student</span> with a passion for <span class='highlighted'>computers</span>, <span class='highlighted'>software</span>, <span class='highlighted'>web design</span>, and <span class='highlighted'>video games</span>. I'm always looking for ways to <span class='highlighted'>learn more</span> and <span class='highlighted'>better myself</span>.",
-    "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span> and continue my work at <span class='highlighted'><a href='https://ory.sh/' class='ory' target='_blank'>Ory</a></span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science / game development</span> as well."
+    "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span> and continue my work at <span class='highlighted'><a href='https://www.worlds.org/' class='worlds' target='_blank'>Worlds</a></span> while I'm doing it. In the distant future, I hope to pursue a career in <span class='highlighted'>data science / game development</span> as well."
 ];
 
 let typedParagraphs = document.querySelectorAll('.typedParagraph');
@@ -101,12 +101,12 @@ async function type(typedParagraphs, homeParagraphs) {
                 // Add link to Drexel University
                 if (highlightedWords[wordCounter] == 'University') {
                     let p = document.querySelector('#secondP');
-                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span>";
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://www.drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span>";
                 }
-                // Add link to Ory
-                if (highlightedWords[wordCounter] == 'Ory') {
+                // Add link to Worlds
+                if (highlightedWords[wordCounter] == 'Worlds') {
                     let p = document.querySelector('#secondP');
-                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span> and continue my work at <span class='highlighted'><a href='https://ory.sh/' class='ory' target='_blank'>Ory</a></span>";
+                    p.innerHTML = "My current goal is to graduate from <span class='highlighted'><a href='https://drexel.com/' class='college drexel' target='_blank'>Drexel University</a></span> and continue my work at <span class='highlighted'><a href='https://www.worlds.org/' class='worlds' target='_blank'>Worlds</a></span>";
                 }
                 wordCounter++;
             } else {

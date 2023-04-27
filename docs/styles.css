@@ -212,6 +212,19 @@ li {
     color: #5528ff;
 }
 
+.worlds {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+.worlds:hover {
+    color: #0388cd;
+}
+
+.worlds:active {
+    color: #0388cd;
+}
+
 #myName {
     font-size: 2.5em;
     transition: color 0.3s;
