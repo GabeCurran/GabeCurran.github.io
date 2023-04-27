@@ -212,6 +212,19 @@ li {
     color: #5528ff;
 }
 
+.amorevino {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+.amorevino:hover {
+    color: #641B30;
+}
+
+.amorevino:active {
+    color: #641B30;
+}
+
 .worlds {
     text-decoration: none;
     color: #EDEDED;
@@ -223,6 +236,14 @@ li {
 
 .worlds:active {
     color: #0388cd;
+}
+
+.projectSection {
+    margin-top: 5vh;
+}
+
+.projectSection > p > a {
+    font-weight: 600;
 }
 
 #myName {
@@ -318,6 +339,22 @@ li {
 }
 
 #yoreLink:hover {
+    color: #a33131;
+}
+
+#oryDemo {
+    width: 75vw;
+    height: 90vh;
+    margin: 5vh 0 5vh 0;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+}
+
+#oryDemoLink {
+    text-decoration: none;
+}
+
+#oryDemoLink:hover {
     color: #a33131;
 }
 
@@ -419,6 +456,16 @@ li {
     }
 
     #yoreLink {
+        font-size: 1rem;
+    }
+
+    #oryDemo {
+        width: 100vw;
+        border: none;
+        border-radius: 0px;
+    }
+
+    #oryDemoLink {
         font-size: 1rem;
     }
 

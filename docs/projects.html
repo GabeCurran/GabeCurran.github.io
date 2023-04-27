@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="snake/snake.css">
     <link rel="icon" href="img/jarvis.png" type="image/icon type">
     <title>Gabe Curran | Projects</title>
 </head>
@@ -20,11 +19,11 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="projectSection redBorder">
             <div class="projectText">
                 <h1>Senior Care App</h1>
                 <p>This was a 5 week-long, group project with <span class='highlighted'><a class='groupMates' target='_blank' href="https://andrewm202.github.io/Front-End-Portfolio/">Andrew Matt</a></span> and <span class='highlighted'><a class='groupMates' target='_blank' href="https://spencerheffley.com/">Spencer Heffley</a></span> during my 3rd semester at <span class='highlighted'><a target='_blank' href='https://stevenscollege.edu/' class='college tsct'>Thaddeus Stevens</a></span>.</p>
-                <p>It is a web-based senior care app, featuring a login/register system with approval, role specific permissions for creating appointments, setting patient info such as prescribing medication, etc.</p>
+                <p>It is a web-based senior care app made with PHP Laravel, featuring a login/register system with approval, role specific permissions for creating appointments, setting patient info such as prescribing medication, etc.</p>
             </div>
             
             <iframe id="yore" src="https://care-of-yore.herokuapp.com/" frameBorder='0'></iframe>
@@ -33,6 +32,19 @@
                 <p>but feel free to login and test it out <a id='yoreLink' target="_blank" href="https://care-of-yore.herokuapp.com/">here</a>!</p>
                 <p class="sneaky"><span  class="highlighted">patient@gmail.com / password</span></p>
                 <p class="sneaky">new accounts have to be approved first</p>
+            </div>
+        </section>
+        <section class="projectSection redBorder">
+            <div class="projectText">
+                <h1>Ory Demo</h1>
+                <p>During my internship at <a href='https://amorevino.net/' class='amorevino highlighted' target='_blank'>AMOREVINO</a>, we partnered with <a href='https://ory.sh/' class='ory highlighted' target='_blank'>Ory</a> to produce a flutter-based demo showcasing how <a href='https://ory.sh/' class='ory highlighted' target='_blank'>Ory</a> can fit into your business model. I joined this team during crunch time and we only had roughly 2 weeks to build the entire thing.</p>
+            </div>
+            
+            <iframe id="oryDemo" src="https://ory-demo.com/" frameBorder='0'></iframe>
+
+            <div class="projectText">
+                <p>Feel free to check out the demo <a id='oryDemoLink' target='_blank' href='https://ory-demo.com/'>here</a>!</p>
+                <p>Unfortunately, mobile-design was not within our time constraints, so please use a desktop for the best viewing experience.</p>
             </div>
         </section>
     </main>
@@ -57,5 +69,4 @@
         </div>
     </section>
 </body>
-<script src="snake/snake.js"></script>
 </html>
