@@ -358,6 +358,10 @@ li {
     color: #a33131;
 }
 
+#age {
+    color: #f76a6a;
+}
+
 @media screen and (max-width: 650px) {
 
     p {
